@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #menuItem {
     min-width: 100px;
 }
@@ -22,29 +21,4 @@ body.inverted {
     cursor: pointer;
     font-family: Consolas;
     user-select: none;
-=======
-#menuItem {
-    min-width: 100px;
-}
-
-body {
-    padding-top: 70px;
-}
-
-body {
-    padding-top: 70px;
-    background-color: #ffffff;
-    transition: background-color 0.05s ease;
-    /* 让背景色切换更丝滑 */
-}
-
-body.inverted {
-    background-color: #111 !important;
-}
-
-#copy-content {
-    cursor: pointer;
-    font-family: Consolas;
-    user-select: none;
->>>>>>> cf90fc3d128c3cf4ddc640a0a917e19b5aab22eb
 }
