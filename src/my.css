@@ -13,6 +13,7 @@ body {
     /* 让背景色切换更丝滑 */
 }
 
+.preload,
 body.inverted {
     background-color: #111 !important;
 }

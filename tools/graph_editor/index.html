@@ -11,6 +11,11 @@
 </head>
 
 <body class="ui">
+    <script>
+        if (localStorage.getItem('theme') === 'D') {
+            document.body.classList.add('inverted');
+        }
+    </script>
     <div class="ui top fixed  menu" id="menu">
         <div class="ui container">
             <a class="item" id="menuItem" href="../../index.html"><i class="home icon"></i> 主页 </a>

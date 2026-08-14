@@ -2,6 +2,7 @@ let savedTheme = localStorage.getItem('theme');
 
 if (savedTheme == 'D') {
     $('.ui').toggleClass('inverted');
+    $('body').toggleClass('inverted');
 }
 
 $('#turnLight').on('click', function () {
