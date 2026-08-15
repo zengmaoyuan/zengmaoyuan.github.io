@@ -730,3 +730,5 @@ $('#unfix-button').on('click', function () {
 $('#tree-button').on('click', function () {
     arrangeAsTree();
 });
+
+$('.menu .item').tab();

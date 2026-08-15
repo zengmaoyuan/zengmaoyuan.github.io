@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Page</title>
-    <link href="../../src/SemanticUI/semantic.min.css" rel="stylesheet">
+    <link href="../../src/FomanticUI/semantic.min.css" rel="stylesheet">
     <link href="../../src/my.css" rel="stylesheet">
     <link href="./graph.css" rel="stylesheet">
 </head>
@@ -62,10 +62,10 @@
             <div class="five wide column">
                 <div class="ui segment">
                     <div class="ui top attached tabular menu">
-                        <div class="active item">图操作</div>
+                        <a class="active item" data-tab="graph-main-controller">图操作</a>
+                        <a class="item" data-tab="graph-physics-controller">参数调整</a>
                     </div>
-                    <div class="ui bottom attached active tab segment">
-
+                    <div class="ui bottom attached active tab segment" data-tab="graph-main-controller">
                         <div class="ui small fluid buttons">
                             <button class="ui button" id="undr-selector">无向图</button>
                             <button class="ui active button" id="dr-selector">有向图</button>
@@ -78,12 +78,15 @@
                         <p></p>
                         <button class="ui basic button" id="tree-button">整理成树</button>
                     </div>
+
+                    <div class="ui bottom attached tab segment" data-tab="graph-physics-controller">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="../../src/SemanticUI/jquery.min.js" type="text/javascript"></script>
-    <script src="../../src/SemanticUI/semantic.min.js" type="text/javascript"></script>
+    <script src="../../src/FomanticUI/jquery.min.js" type="text/javascript"></script>
+    <script src="../../src/FomanticUI/semantic.min.js" type="text/javascript"></script>
     <script src="../../src/my.js" type="text/javascript"></script>
     <script src="./main.js"></script>
 </body>
